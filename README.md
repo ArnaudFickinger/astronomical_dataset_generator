@@ -50,26 +50,26 @@ addnoise(data,mu,sigma,typ):
 
 Add noise to data
 
-data: \ 
+data: \
 The ideal data in numpy array you want to add noise on.
 
-mu: \ 
+mu: \
 The mean of the gaussian noise distribution or the center of the uniform noise.
 
-sigma: \ 
+sigma: \
 Standard deviation of the gaussian noise or the range of the uniform noise.
 
-typ: \ 
+typ: \
 type of noise, options:"gaussian" or "uniform".
 
 sparsify(data,percent)
 
 Randomly draw some data out to mimic the effect of bad weather or just some missing data.
 
-data: \ 
+data: \
 Original data to be sparsified.
     
-percent: \ 
+percent: \
 Percentage of the data to be kept.
 
 visibledata(planettarget, planetob,start, end, interval_mode, step_size,Rsun=1/215)
